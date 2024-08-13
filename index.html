@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="assets/img/logo.png" />
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__img"
+        src="assets/img/logo.png"
+        alt="Logo de la pagina web"
+      />
+      <h1 class="header__img__titulo">Encriptador</h1>
+    </header>
+    <main>
+      <section class="contenido">
+        <div class="contenido__encriptador">
+          <textarea
+            class="contenido__encriptador__input"
+            name="textarea"
+            id="textArea"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+          <div class="contenido__encriptador__mensaje">
+            <img
+              class="contenido__encriptador__mensaje__img"
+              src="assets/img/advertencia.png"
+              alt=""
+            />
+            <p>Solo letras minusculas y sin acentos</p>
+          </div>
+          <div class="contenido__encriptador__botones">
+            <button
+              id="botonEncriptar"
+              class="contenido__encriptador__boton contenido__encriptador__boton_encriptar"
+            >
+              Encriptar
+            </button>
+            <button
+              id="botonDescencriptar"
+              class="contenido__encriptador__boton contenido__encriptador__boton_desencriptar"
+            >
+              Desencriptar
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Alan Guillermo López López</p>
+      <div class="contenedor__redes">
+        <nav>
+          <a href="https://github.com/alanlopez0208" target="_blank"
+            ><img src="assets/img/github.png" alt="Logo de github"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/alan-guillermo-lopez-lopez-29690b315/"
+            target="_blank"
+            ><img src="assets/img/linkedin.png" alt="Logo de Linkedin"
+          /></a>
+        </nav>
+      </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
