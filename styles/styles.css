@@ -61,7 +61,7 @@ main {
 
 .contenido__encriptador__input {
   border-radius: 10px;
-  height: 100%;
+  height: 50%;
   resize: none;
   background-color: var(--color-cards);
   border: none;
