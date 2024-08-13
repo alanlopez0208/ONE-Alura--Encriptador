@@ -21,7 +21,12 @@
 
 body {
   background-color: var(--color-primario);
+
   height: 100vh;
+}
+
+main {
+  height: 100%;
 }
 
 .header {
@@ -44,7 +49,7 @@ body {
   justify-content: center;
   padding: 2% 0%;
   gap: 20px;
-  height: 100vh;
+  height: 100%;
 }
 
 .contenido__encriptador {
@@ -55,8 +60,8 @@ body {
 }
 
 .contenido__encriptador__input {
-  height: 65%;
   border-radius: 10px;
+  height: 100%;
   resize: none;
   background-color: var(--color-cards);
   border: none;
